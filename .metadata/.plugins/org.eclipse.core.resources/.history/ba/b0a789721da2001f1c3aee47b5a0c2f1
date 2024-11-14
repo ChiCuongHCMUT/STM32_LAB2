@@ -1,10 +1,10 @@
 /* USER CODE BEGIN Header */
 /**
-  ****************************************************************************
+  ******************************************************************************
   * @file           : main.h
   * @brief          : Header for main.c file.
   *                   This file contains the common defines of the application.
-  ****************************************************************************
+  ******************************************************************************
   * @attention
   *
   * <h2><center>&copy; Copyright (c) 2024 STMicroelectronics.
@@ -15,7 +15,7 @@
   * License. You may obtain a copy of the License at:
   *                        opensource.org/licenses/BSD-3-Clause
   *
-  ****************************************************************************
+  ******************************************************************************
   */
 /* USER CODE END Header */
 
@@ -60,8 +60,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define DOT_Pin GPIO_PIN_4
 #define DOT_GPIO_Port GPIOA
-#define LED_RED_Pin GPIO_PIN_5
-#define LED_RED_GPIO_Port GPIOA
+#define Led_Red_Pin GPIO_PIN_5
+#define Led_Red_GPIO_Port GPIOA
 #define EN0_Pin GPIO_PIN_6
 #define EN0_GPIO_Port GPIOA
 #define EN1_Pin GPIO_PIN_7
